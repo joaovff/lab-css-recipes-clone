@@ -1,7 +1,73 @@
-h1, body, html, main {
-  margin: 0;
-}
-html {
+html{
+  margin: 0px 800px 0px 550px ;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  width: auto;
+  height: auto;
+}
+body {
+  margin-top: 0px;
+}
+header {
+  background-image: url(https://i.ibb.co/3Y54Ph6/soup.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 1;
+  margin-bottom: 250px;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 800px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-description {
+  align-self: center;
+  margin-top: 75px;
+  text-align: center;
+  width: 700px;
+}
+.recipe-img {
+  height: auto;
+  width: 450px;
+  align-self: center;
+  justify-self: center;
+
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+h5 {
+  margin-left: 65px;
+  width: 700px;
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: -1px;
+  color: rgb(117, 117, 117);
+}
+.ol {
+  margin-left: -14px;
+}
+.cooking-img {
+  height: auto;
+  width: 350px;
+  align-self: center;
+  justify-self: center;
+  margin-top: 25px;
+}
+.directions {
+  margin-bottom: 200px;
 }
